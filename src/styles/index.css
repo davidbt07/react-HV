@@ -1,3 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-color: #00050a;
+}
+
+.transparentColor {
+  background-color: #fdf7fd18;
+}
+
+.floatLeft {
+  left: -165px;
+}
+
+.Bigtitle {
+  @apply sm:text-xl md:text-2xl lg:text-6xl font-bold;
+}
+
+.title {
+  @apply sm:text-sm md:text-base lg:text-3xl text-white font-bold;
+}
+
+.paragraph {
+  @apply sm:text-sm md:text-base lg:text-xl text-gray-400;
+}
+
+#personal-info{
+  @apply flex flex-col gap-5
+}
+
+#vignettes {
+  @apply bg-violet-700 text-white py-4 px-6 w-full
+}
+
+|
+li{
+  @apply py-2;
+}

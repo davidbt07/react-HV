@@ -1,17 +1,17 @@
+import { Footer } from 'components/Footer';
+import { Header } from 'components/Header';
+import { VerticalInfo } from 'components/VerticalInfo';
 import { Outlet } from 'react-router-dom';
 
-// delete this
-const Layout = () => <Outlet />;
+const Layout = () => {
+  return (
+    <div className='flex flex-col'>
+      <Header />
+      <VerticalInfo />
+      <Outlet />
+      <Footer />
+    </div>
+  );
+};
 
-// replace it with your own layout
-// const Layout = () => {
-//   return (
-//     <>
-//       <>
-//         <Outlet />
-//       </>
-//     </>
-//   );
-// };
-
-export default Layout;
+export { Layout };

@@ -1,13 +1,14 @@
 import React from 'react';
+// eslint-disable-next-line no-restricted-imports
+import { Aboutme } from './Aboutme';
+// eslint-disable-next-line no-restricted-imports
+import { Front } from './Front';
 
 const Home = () => (
-  <main>
-    <h1 className='text-3xl font-extrabold'>CV Starter Code</h1>
-    <div className='flex flex-col'>
-      <span className='text-indigo-500 text-lg'>With Tailwind...</span>
-      <span className='text-gray-200'>And react router</span>
-    </div>
+  <main className='flex flex-col'>
+    <Front />
+    <Aboutme />
   </main>
 );
 
-export default Home;
+export { Home };
