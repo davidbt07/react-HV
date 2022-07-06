@@ -30,6 +30,10 @@ body {
   @apply sm:text-sm md:text-base lg:text-xl text-gray-400;
 }
 
+#front img{
+  height: 600px
+}
+
 #personal-info {
   @apply flex flex-col gap-4 justify-items-center justify-center;
 }
@@ -62,4 +66,14 @@ li {
 
 h3{
   @apply text-white
+}
+
+#enterprise img{
+  width: 500px;
+  height: 250px;
+}
+
+#enterprise .info{
+  width: 400px;
+  @apply p-2 flex flex-col gap-3 h-fit;
 }

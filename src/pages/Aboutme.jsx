@@ -1,4 +1,4 @@
-import { MiniHeader } from 'components/MiniHeader';
+import { GeneralInfo } from 'components/GeneralInfo';
 import { SocialMedia } from 'components/SocialMedia';
 import React from 'react';
 
@@ -12,16 +12,13 @@ export const Aboutme = () => {
           className='w-2/4'
         />
         <div id='personal-info' className='w-2/5'>
-          <MiniHeader text='Acerca de mí' />
-
-          <h1 className='title'>
-            SOY YEISON BALLESTEROS, DESARROLLADOR DE SOFTWARE.
-          </h1>
-          <p className='paragraph'>
-            Soy estudiante de Ingeniería de Sistemas con énfasis en el
-            Desarrollo de Software, más específicamente enfocado en el
-            desarrollo web.
-          </p>
+          <GeneralInfo
+            section='Acerca de mí'
+            title='SOY YEISON BALLESTEROS, DESARROLLADOR DE SOFTWARE.'
+            paragraph='Soy estudiante de Ingeniería de Sistemas con énfasis en el Desarrollo de
+            Software, más específicamente enfocado en el desarrollo web.'
+            type='col'
+          />
 
           <div id='vignettes'>
             <ul className='list-disc'>
