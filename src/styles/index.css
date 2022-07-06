@@ -22,19 +22,44 @@ body {
   @apply sm:text-sm md:text-base lg:text-3xl text-white font-bold;
 }
 
+.subtitle {
+  @apply sm:text-sm md:text-base lg:text-2xl text-white;
+}
+
 .paragraph {
   @apply sm:text-sm md:text-base lg:text-xl text-gray-400;
 }
 
-#personal-info{
-  @apply flex flex-col gap-5
+#personal-info {
+  @apply flex flex-col gap-4 justify-items-center justify-center;
 }
 
 #vignettes {
-  @apply bg-violet-700 text-white py-4 px-6 w-full
+  @apply bg-violet-900 text-white py-4 px-6 w-full;
 }
 
-|
-li{
+li {
   @apply py-2;
+}
+
+#social {
+  @apply bg-violet-900 text-white flex flex-row flex-wrap w-3/5 justify-center gap-3 py-3;
+}
+
+#aboutme {
+  height: 690px;
+}
+
+.clearfix {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.border-bottom-container {
+  @apply border-b-2 border-b-violet-900;
+}
+
+h3{
+  @apply text-white
 }
