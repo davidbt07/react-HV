@@ -5,6 +5,7 @@ import { Courses } from './Courses';
 import { Education } from './Education';
 import { Experience } from './Experience';
 import { Front } from './Front';
+import { Hobbies } from './Hobbies';
 import { Languages } from './Languages';
 
 const Home = () => (
@@ -15,6 +16,7 @@ const Home = () => (
     <Experience />
     <Languages />
     <Courses />
+    <Hobbies />
   </main>
 );
 
