@@ -1,12 +1,11 @@
-/* eslint-disable no-restricted-imports */
 import React from 'react';
-import { Aboutme } from './Aboutme';
-import { Courses } from './Courses';
-import { Education } from './Education';
-import { Experience } from './Experience';
-import { Front } from './Front';
-import { Hobbies } from './Hobbies';
-import { Languages } from './Languages';
+import { Aboutme } from 'pages/Aboutme';
+import { Courses } from 'pages/Courses';
+import { Education } from 'pages/Education';
+import { Experience } from 'pages/Experience';
+import { Front } from 'pages/Front';
+import { Hobbies } from 'pages/Hobbies';
+import { Languages } from 'pages/Languages';
 
 const Home = () => (
   <main className='flex flex-col'>
