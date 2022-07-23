@@ -11,7 +11,7 @@ export const SocialMedia = ({ icon, social, account }) => (
     </div>
     <div>
       <h3 className='subtitle'>{social}</h3>
-      <p>{account}</p>
+      <p className='paragraph text-white'>{account}</p>
     </div>
   </div>
 );

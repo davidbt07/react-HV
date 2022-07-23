@@ -12,7 +12,7 @@ const Front = () => (
         ¡Hola! Mi nombre es <br />
         Yeison David Ballesteros
       </h1>
-      <p className='m-8 text-center'>
+      <p className='m-8 text-center paragraph text-white'>
         !Soy estudiante de Ingeniería de Sistemas y esta es mi hoja de vida!
       </p>
     </div>

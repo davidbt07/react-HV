@@ -10,7 +10,7 @@ import {
 
 export const CourseCard = ({ icon, course, platform, date }) => (
   <div className='flex flex-col items-center bg-[#18191A] w-1/3 text-center gap-4 py-2'>
-    <div className='text-violet-700 text-4xl'>
+    <div className='text-violet-700 sm:text-2xl md:text-3xl lg:text-4xl'>
       {icon === 'angular' && <FaAngular />}
       {icon === 'java' && <FaJava />}
       {icon === 'html' && <FaHtml5 />}
@@ -19,7 +19,7 @@ export const CourseCard = ({ icon, course, platform, date }) => (
       {icon === 'js' && <FaNodeJs />}
     </div>
     <h3 className='subtitle'>{course}</h3>
-    <h4 className='paragraph'>Curso realizado en: {platform}</h4>
-    <p className='paragraph'>{date}</p>
+    <h4 className='paragraph text-gray-400'>Curso realizado en: {platform}</h4>
+    <p className='paragraph text-gray-400'>{date}</p>
   </div>
 );

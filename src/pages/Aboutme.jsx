@@ -20,7 +20,7 @@ export const Aboutme = () => (
         />
 
         <div id='vignettes'>
-          <ul className='list-disc'>
+          <ul className='list-disc paragraph text-white'>
             <li>
               <span>Especialidad: </span>Desarrollador Web
             </li>

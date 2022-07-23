@@ -9,7 +9,7 @@ export const GeneralInfo = ({ section, title, paragraph, type }) => (
           <MiniHeader text={section} />
           <h1 className='title'>{title}</h1>
         </div>
-        <p className='paragraph w-1/2'>{paragraph}</p>
+        <p className='paragraph text-gray-400 w-1/2'>{paragraph}</p>
       </div>
     )}
     {type === 'col' && (
@@ -18,7 +18,7 @@ export const GeneralInfo = ({ section, title, paragraph, type }) => (
           <MiniHeader text={section} />
           <h1 className='title'>{title}</h1>
         </div>
-        <p className='paragraph'>{paragraph}</p>
+        <p className='paragraph text-gray-400'>{paragraph}</p>
       </div>
     )}
   </div>
