@@ -5,8 +5,8 @@ export const LanguageCard = ({ language, level }) => {
   const nivel = level;
   return (
     <div className='flex flex-col'>
-      <h3>{language}</h3>
-      <div className='text-violet-700 text-5xl'>
+      <h3 className='subtitle'>{language}</h3>
+      <div className='text-violet-700 sm:text-2xl md:text-3xl lg:text-5xl'>
         {nivel === '3.5' && (
           <div className='flex flex-row'>
             <MdStar />

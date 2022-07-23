@@ -68,7 +68,7 @@ export const HobbieCard = ({ hobbie, logo }) => {
           </svg>
         )}
       </icon>
-      <h4 className='text-white text-center text-lg'>{hobbie}</h4>
+      <h4 className='text-white text-center paragraph'>{hobbie}</h4>
     </div>
   );
 };

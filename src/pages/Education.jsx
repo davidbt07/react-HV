@@ -12,7 +12,7 @@ const Education = () => (
       type='row'
     />
     <div className='flex flex-row w-full'>
-      <h3 className='w-1/3 text-center'>ESTUDIOS:</h3>
+      <h3 className='w-1/3 text-center subtitle'>ESTUDIOS:</h3>
       <div className='w-2/3 flex flex-col gap-3'>
         <Academy
           institute='UNIVERSIDAD DE ANTIOQUIA'
