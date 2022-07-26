@@ -11,7 +11,7 @@ const Education = () => (
           estos nace desde mi familia.'
       type='row'
     />
-    <div className='flex flex-row w-full'>
+    <div className='flex flex-col lg:flex-row w-full gap-5'>
       <h3 className='w-1/3 text-center subtitle'>ESTUDIOS:</h3>
       <div className='w-2/3 flex flex-col gap-3'>
         <Academy
