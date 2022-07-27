@@ -4,13 +4,13 @@ import React from 'react';
 
 export const Aboutme = () => (
   <div id='aboutme' className='clearfix relative border-bottom-container'>
-    <div className='flex flex-row w-screen mt-12 mx-2 gap-10 justify-center'>
+    <div className='mobile-aboutme flex flex-row w-screen mt-12 mx-2 gap-10 justify-center items-center'>
       <img
         src='https://images.unsplash.com/photo-1504593811423-6dd665756598?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'
         alt='Foto Yeison'
-        className='w-2/4 h-[600px]'
+        className='w-9/12 sm:w-2/4 h-[600px]'
       />
-      <div id='personal-info' className='w-2/5'>
+      <div id='personal-info' className='sm:w-2/5'>
         <GeneralInfo
           section='Acerca de mí'
           title='SOY YEISON BALLESTEROS, DESARROLLADOR DE SOFTWARE.'
@@ -39,7 +39,7 @@ export const Aboutme = () => (
     </div>
     <div
       id='social'
-      className='absolute left-1/4 bottom-[40px] border-bottom-container'
+      className='sm:absolute left-1/4 bottom-[40px] border-bottom-container'
     >
       <SocialMedia icon='github' social='Github' account='davidbt07' />
       <SocialMedia

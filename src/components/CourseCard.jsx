@@ -9,7 +9,7 @@ import {
 } from 'react-icons/fa';
 
 export const CourseCard = ({ icon, course, platform, date }) => (
-  <div className='flex flex-col items-center bg-[#18191A] w-1/3 text-center gap-4 py-2'>
+  <div className='flex flex-col items-center bg-[#18191A] w-5/12 lg:w-1/3 text-center gap-4 py-2'>
     <div className='text-violet-700 sm:text-2xl md:text-3xl lg:text-4xl'>
       {icon === 'angular' && <FaAngular />}
       {icon === 'java' && <FaJava />}

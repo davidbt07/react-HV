@@ -10,7 +10,7 @@ export const Courses = () => (
       paragraph='Aunque no son todos los cursos que he hecho, sí son los que considero más importantes.'
       type='row'
     />
-    <div className='flex flex-row flex-wrap gap-12 justify-center'>
+    <div className='flex flex-row flex-wrap gap-4 lg:gap-12 justify-center'>
       <CourseCard
         icon='html'
         course='Universidad Desarrollo Web- FrontEnd Web Developer!'
