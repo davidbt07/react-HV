@@ -17,7 +17,7 @@ body {
 }
 
 .Bigtitle {
-  @apply sm:text-2xl md:text-3xl lg:text-6xl font-bold;
+  @apply md:text-4xl lg:text-6xl font-bold;
 }
 
 .title {
@@ -32,11 +32,11 @@ body {
   @apply sm:text-base md:text-lg lg:text-2xl font-normal;
 }
 
-.paragraph-bold{
+.paragraph-bold {
   @apply sm:text-base md:text-lg lg:text-2xl font-bold;
 }
 
-#front img{
+#front img {
   height: 500px;
   @apply min-w-max;
 }
@@ -46,7 +46,7 @@ body {
 }
 
 #vignettes {
-  @apply bg-violet-900 text-white py-4 px-7 w-full;
+  @apply bg-violet-900 text-white py-4 px-7 w-11/12 sm:w-full;
 }
 
 li {
@@ -58,7 +58,11 @@ li {
 }
 
 #aboutme {
-  @apply h-[780px];
+  @apply sm:h-[780px];
+}
+
+#hobbie-card svg {
+  @apply w-16 h-16 lg:w-20 lg:h-20;
 }
 
 .clearfix {
@@ -71,28 +75,51 @@ li {
   @apply border-b-2 border-b-violet-900;
 }
 
-h3{
-  @apply text-white
+h3 {
+  @apply text-white;
 }
 
-#enterprise img{
+#enterprise img {
   width: 500px;
   height: 250px;
 }
 
-#enterprise .info{
+#enterprise .info {
   width: 400px;
   @apply p-2 flex flex-col gap-3 h-fit;
 }
 
 @media (max-width: 768px) {
-  #social{
+  #social {
     @apply flex flex-col left-1/3 bottom-10 p-3 gap-2;
   }
   #aboutme {
     @apply h-[880px];
   }
-  #aboutme img{
+  #aboutme img {
     @apply h-[500px];
-  }  
+  }
+}
+
+@media (max-width: 390px) {
+  .Bigtitle{
+    @apply text-3xl;
+  }
+
+  .greetings {
+    @apply gap-12;
+  }
+
+  #aboutme {
+    @apply h-fit pb-8 pt-2 flex flex-col gap-8;
+  }
+
+  .mobile-aboutme{
+    @apply flex flex-col;
+  }
+
+  #social{
+    @apply self-center;
+  }
+
 }

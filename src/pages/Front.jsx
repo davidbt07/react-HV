@@ -7,7 +7,7 @@ const Front = () => (
       alt='imagen'
       className='w-screen'
     />
-    <div className='text-white absolute flex flex-col inset-1/4'>
+    <div className='greetings text-white absolute flex flex-col inset-1/4'>
       <h1 className='Bigtitle text-center'>
         ¡Hola! Mi nombre es <br />
         Yeison David Ballesteros
