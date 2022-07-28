@@ -3,7 +3,7 @@ import { GeneralInfo } from 'components/GeneralInfo';
 import React from 'react';
 
 const Education = () => (
-  <div className='flex flex-col gap-12 py-12 px-8 border-bottom-container'>
+  <div className='flex flex-col gap-12 py-12 px-2 sm:px-8 border-bottom-container'>
     <GeneralInfo
       section='Educación'
       title='MI FORMACIÓN ACADÉMICA HASTA AHORA'
@@ -11,9 +11,9 @@ const Education = () => (
           estos nace desde mi familia.'
       type='row'
     />
-    <div className='flex flex-col lg:flex-row w-full gap-5'>
-      <h3 className='w-1/3 text-center subtitle'>ESTUDIOS:</h3>
-      <div className='w-2/3 flex flex-col gap-3'>
+    <div className='flex flex-col lg:flex-row w-full gap-5 px-4'>
+      <h3 className='w-full sm:w-1/3 lg:text-center subtitle'>ESTUDIOS:</h3>
+      <div className='w-fit sm:w-2/3 flex flex-col gap-3'>
         <Academy
           institute='UNIVERSIDAD DE ANTIOQUIA'
           degree='INGENIERÍA EN SISTEMAS-ENFS. DESARROLLO DE SOFTWARE'

@@ -5,7 +5,7 @@ export const GeneralInfo = ({ section, title, paragraph, type }) => (
   <div id='general-info'>
     {type === 'row' && (
       <div className='flex flex-col lg:flex-row lg:items-center mx-3.5 gap-5'>
-        <div className='w-1/2 flex flex-col gap-5 sm:w-fit'>
+        <div className='flex flex-col gap-5 w-fit'>
           <MiniHeader text={section} />
           <h1 className='title'>{title}</h1>
         </div>
@@ -13,8 +13,8 @@ export const GeneralInfo = ({ section, title, paragraph, type }) => (
       </div>
     )}
     {type === 'col' && (
-      <div className='flex flex-col lg:items-center mx-3.5 gap-5'>
-        <div className='w-1/2 flex flex-col gap-5 sm:w-fit'>
+      <div className='flex flex-col lg:items-center mx-3.5 gap-5 px-2'>
+        <div className='flex flex-col gap-5 w-fit'>
           <MiniHeader text={section} />
           <h1 className='title'>{title}</h1>
         </div>

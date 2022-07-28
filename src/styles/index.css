@@ -46,7 +46,7 @@ body {
 }
 
 #vignettes {
-  @apply bg-violet-900 text-white py-4 px-7 w-11/12 sm:w-full;
+  @apply bg-violet-900 text-white py-4 px-7 w-11/12 sm:w-full self-center;
 }
 
 li {
@@ -120,6 +120,16 @@ h3 {
 
   #social{
     @apply self-center;
+  }
+
+  #enterprise img {
+    width: 350px;
+    height: 200px;
+  }
+  
+  #enterprise .info {
+    width: 350px;
+    @apply p-2 flex flex-col gap-3 h-fit;
   }
 
 }
