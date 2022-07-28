@@ -3,14 +3,14 @@ import { GeneralInfo } from 'components/GeneralInfo';
 import React from 'react';
 
 export const Courses = () => (
-  <div className='flex flex-col gap-12 border-bottom-container py-12 px-9'>
+  <div className='flex flex-col gap-12 border-bottom-container py-12 px-2 sm:px-9'>
     <GeneralInfo
       section='Cursos y Certificaciones'
       title='CURSOS Y CERTIFICACIONES QUE HE COMPLETADO EN DIFERENTES PLATAFORMAS'
       paragraph='Aunque no son todos los cursos que he hecho, sí son los que considero más importantes.'
       type='row'
     />
-    <div className='flex flex-row flex-wrap gap-4 lg:gap-12 justify-center'>
+    <div className='flex flex-col sm:flex-row sm:flex-wrap gap-4 lg:gap-12 justify-center items-center'>
       <CourseCard
         icon='html'
         course='Universidad Desarrollo Web- FrontEnd Web Developer!'
@@ -37,7 +37,7 @@ export const Courses = () => (
       />
       <CourseCard
         icon='sql'
-        course='Oracle SQL - A Complete Introduction'
+        course='Oracle SQL - A Complete Introduction.'
         platform='Udemy'
         date='2020'
       />

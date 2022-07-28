@@ -3,7 +3,7 @@ import React from 'react';
 export const HobbieCard = ({ hobbie, logo }) => (
   <div
     id='hobbie-card'
-    className='flex flex-col items-center bg-[#C35BED]/10 w-2/12 p-4 gap-3'
+    className='flex flex-col items-center bg-[#C35BED]/10 w-5/12 sm:w-3/12 lg:w-2/12 sm:h-[180px] lg:h-[220px] justify-center p-4 gap-3'
   >
     <icon>
       {logo === 'videogame' && (
