@@ -131,7 +131,7 @@ h3 {
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 640px) {
   .Bigtitle{
     @apply text-3xl;
   }
