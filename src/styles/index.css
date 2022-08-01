@@ -38,7 +38,7 @@ body {
 
 #front img {
   height: 500px;
-  @apply min-w-max;
+  max-width: 100%;
 }
 
 #personal-info {
