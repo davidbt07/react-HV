@@ -3,7 +3,10 @@ import { HobbieCard } from 'components/HobbieCard';
 import React from 'react';
 
 export const Hobbies = () => (
-  <div className='flex flex-col gap-12 border-bottom-container py-12 px-2 sm:px-9'>
+  <div
+    id='hobbies'
+    className='flex flex-col gap-12 border-bottom-container py-12 px-2 sm:px-9'
+  >
     <GeneralInfo
       section='Hobbies'
       title='Y FINALMENTE, EN MI TIEMPO LIBRE LO QUE ME GUSTA HACER ES:'

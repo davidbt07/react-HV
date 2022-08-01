@@ -3,7 +3,10 @@ import { LanguageCard } from 'components/LanguageCard';
 import React from 'react';
 
 export const Languages = () => (
-  <div className='flex flex-col gap-12 border-bottom-container py-12 px-2 sm:px-9'>
+  <div
+    id='languages'
+    className='flex flex-col gap-12 border-bottom-container py-12 px-2 sm:px-9'
+  >
     <GeneralInfo
       section='Idiomas'
       title='IDIOMAS EN LOS QUE PUEDO DESEMPEÑARME'

@@ -5,7 +5,7 @@ export const HobbieCard = ({ hobbie, logo }) => (
     id='hobbie-card'
     className='flex flex-col items-center bg-[#C35BED]/10 w-5/12 sm:w-3/12 lg:w-2/12 sm:h-[180px] lg:h-[220px] justify-center p-4 gap-3'
   >
-    <icon>
+    <div>
       {logo === 'videogame' && (
         <svg viewBox='0 0 81 80' fill='none' xmlns='http://www.w3.org/2000/svg'>
           <path
@@ -45,7 +45,7 @@ export const HobbieCard = ({ hobbie, logo }) => (
           />
         </svg>
       )}
-    </icon>
+    </div>
     <h4 className='text-white text-center paragraph'>{hobbie}</h4>
   </div>
 );

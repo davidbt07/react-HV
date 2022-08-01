@@ -3,7 +3,10 @@ import { GeneralInfo } from 'components/GeneralInfo';
 import React from 'react';
 
 export const Courses = () => (
-  <div className='flex flex-col gap-12 border-bottom-container py-12 px-2 sm:px-9'>
+  <div
+    id='courses'
+    className='flex flex-col gap-12 border-bottom-container py-12 px-2 sm:px-9'
+  >
     <GeneralInfo
       section='Cursos y Certificaciones'
       title='CURSOS Y CERTIFICACIONES QUE HE COMPLETADO EN DIFERENTES PLATAFORMAS'
