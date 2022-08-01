@@ -10,7 +10,7 @@ export const Languages = () => (
     <GeneralInfo
       section='Idiomas'
       title='IDIOMAS EN LOS QUE PUEDO DESEMPEÑARME'
-      paragraph='Mi lengua nativa es el Español, sin embargo siempre te tenido gusto por aprender inglés.'
+      paragraph='Mi lengua nativa es el Español, sin embargo siempre he tenido gusto por aprender inglés.'
       type='row'
     />
     <div className='flex flex-row gap-12 justify-center'>
