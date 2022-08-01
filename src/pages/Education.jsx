@@ -3,7 +3,10 @@ import { GeneralInfo } from 'components/GeneralInfo';
 import React from 'react';
 
 const Education = () => (
-  <div className='flex flex-col gap-12 py-12 px-2 sm:px-8 border-bottom-container'>
+  <div
+    id='education'
+    className='flex flex-col gap-12 py-12 px-2 sm:px-8 border-bottom-container'
+  >
     <GeneralInfo
       section='Educación'
       title='MI FORMACIÓN ACADÉMICA HASTA AHORA'
